@@ -1,0 +1,8 @@
+.bbpcke-main,
+.bbpcke-side{ width: 65%; display: inline-block;vertical-align: top;}
+.bbpcke-side{width: 30%; margin-left: 3%;}
+.bbpcke-box{padding: 5px 15px; background-color: #fff;}
+
+@media screen and (max-width: 500px) {
+    .bbpcke-main,.bbpcke-side {display: block; width: 100%; margin: 10px 0;}
+}
